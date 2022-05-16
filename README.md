@@ -37,3 +37,10 @@ insert into products(productid,productName,producttype,productcategory,pricerang
 
 2. after creating all the database related tables you have to import project into intellij with gradel. 
 3. after this build and run the project. 
+4. use postman to check data.
+5. paste thses urls given below.
+
+localhost:8081/addproducts/seller001
+localhost:8081/viewbyseller/seller003
+localhost:8081/delete?sellerid=seller001&productid=pro001
+localhost:8081/search/Laptops
